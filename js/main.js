@@ -21,7 +21,7 @@ elForm.addEventListener("submit", function(evt){
 
 
    if(elInputValue <= 0 || isNaN(elInputValue)){
-    elResult.textContent = "0 dan katta raqam kiriting";
+    elResult.textContent = "0 dan katta raqam yoki son kiriting!!!";
     elResult.classList.add("site__eror");
     return
 
