@@ -26,6 +26,7 @@ elForm.addEventListener("submit", function(evt){
     return
 
    }else{
+    elResult.textContent = "";
     elResult.classList.remove("site__eror");
    }
 
